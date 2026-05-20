@@ -4,7 +4,8 @@
 # Purpose:
 #   Build and compare HepG2 and K562 consensus regulatory networks, visualize
 #   network statistics, annotate selected interactions with eCLIP/RAP-seq data,
-#   and perform downstream validation in LIHC/GTEx datasets.
+#   and perform downstream validation in LIHC/GTEx datasets. This is one of the
+#   major scripts of the project.
 #
 # Notes for reuse:
 #   1. Update only the paths and parameters in the Configuration section.
