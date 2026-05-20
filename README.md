@@ -24,29 +24,6 @@ The scripts were cleaned and standardized for publication and reproducible use.
 
 ---
 
-# Repository Structure
-
-main/
-├── 01_data_preprocessing_and_matrix_generation.R
-├── 02_network_inference_methods.R
-├── 03_consensus_network_construction.R
-├── 04_external_validation_and_crosscomparison.R
-├── 05_coexpression_validation_plots.R
-├── 06_network_module_enrichment_analysis.R
-├── 07_network_topology_comparison.R
-├── 08_eclip_target_network_construction.R
-├── 09_link_prioritization_validation_scoring.R
-├── 10_supplementary_figure_network_benchmarking.R
-├── 11_ranked_interaction_disease_enrichment_analysis.R
-├── 12_archived_cross_cellline_consensus_network_analysis.R
-├── 13_syncode_synthetic_dataset_similarity_analysis.R
-└── 14_multifeature_interaction_scoring_and_visualization.R
-
-functions/
-└── utility/helper functions
-
----
-
 # Main Scripts
 
 ## 01_data_preprocessing_and_matrix_generation.R
@@ -139,7 +116,7 @@ The workflow relies on multiple external datasets, including:
 - GENCODE annotations
 - TRRUST regulatory networks
 - FunCoup interaction networks
-- MSigDB functional gene sets
+- MSigDB functional gene sets (selected)
 
 ---
 
